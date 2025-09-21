@@ -1,0 +1,12 @@
+artifact_path,artifact_type,control_id,run_id,timestamp_utc,sha256,signer,environment,pii_flag,notes
+01_Case\A_Log_Detections\outputs\alerts_evidence.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,c2da568f00e08016cedc5849f7f4024720f1720c42b3f7f5a7ab386ee749d802, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\B_Config_ChangeMgmt\outputs\config_drift_evidence.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,7917588abcebeca434965217f51407c935ff258e805df251235fbaeb2bcb555c, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\dsar_log_evidence.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,6e481d3f000e2f34f472c8ed70ca6cc973bdf3bdb97ff983f5d191f2b80d4c0a, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\customers_DSAR-20250911-02.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,6fa9b877e0c04a4c7a150b11e23661fe2ca053191d86dfb28b8e35019a6467a5, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\customers_DSAR-20250911-05.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,eb32688c127f3164b687f90c6ecdeca9d03115d0d4c0dadf8db32700f2e1521d, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\customers_DSAR-20250911-08.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,7e65790abb877e202e0262d46b5fc057e1bfb3abf57ef0f7eb67dab1fb8975da, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\delete_preview_DSAR-20250911-03.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,e242e6023af6db080b6a1018a571718959e01bca8db52760a3a155287dc62f39, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\delete_preview_DSAR-20250911-07.csv,csv,,20250920T001914Z,2025-09-20T00:19:14Z,e242e6023af6db080b6a1018a571718959e01bca8db52760a3a155287dc62f39, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\dsar_DSAR-20250911-02.zip,zip,,20250920T001914Z,2025-09-20T00:19:14Z,5e392ca23e1dab4fdb512952a862843b287e6c1a7d6344b799e6f1c6257d828c, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\dsar_DSAR-20250911-05.zip,zip,,20250920T001914Z,2025-09-20T00:19:14Z,455a740465d37e5401cf0d8f9990e693828666c44dffc0676f97d4108496c333, Arjona_002 / GRC,non-prod,synthetic,
+01_Case\C_Privacy_DSAR\outputs\dsar_DSAR-20250911-08.zip,zip,,20250920T001914Z,2025-09-20T00:19:14Z,922ca933977a2c67bd198b7f4947c1e9d17a8261060a38f94b466c7e962e9773, Arjona_002 / GRC,non-prod,synthetic,

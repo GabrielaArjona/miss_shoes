@@ -1,0 +1,53 @@
+timestamp,ip,rule_id,sample_path,status,count,severity,description
+2025-09-11 16:00:01+00:00,192.0.2.77,R004_ADMIN_PROBE,/wp-admin,403,1,Medium,Admin probing
+2025-09-11 16:01:05+00:00,10.0.0.12,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,500,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:01:31+00:00,192.0.2.77,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,404,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:01:31+00:00,192.0.2.77,R006_BAD_UA,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,404,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:02:45+00:00,198.51.100.25,R004_ADMIN_PROBE,/phpmyadmin,403,1,Medium,Admin probing
+2025-09-11 16:03:01+00:00,198.51.100.25,R004_ADMIN_PROBE,/admin,401,1,Medium,Admin probing
+2025-09-11 16:04:35+00:00,192.0.2.77,R002_TRAVERSAL,/../../etc/passwd,404,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:05:09+00:00,198.51.100.25,R004_ADMIN_PROBE,/admin,500,1,Medium,Admin probing
+2025-09-11 16:05:09+00:00,198.51.100.25,R006_BAD_UA,/admin,500,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:05:27+00:00,192.0.2.77,R004_ADMIN_PROBE,/phpmyadmin,404,1,Medium,Admin probing
+2025-09-11 16:05:32+00:00,198.51.100.25,R002_TRAVERSAL,/../../etc/passwd,403,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:05:39+00:00,192.0.2.77,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,500,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:06:02+00:00,10.0.0.12,R004_ADMIN_PROBE,/wp-admin,500,1,Medium,Admin probing
+2025-09-11 16:06:18+00:00,198.51.100.25,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,401,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:07:05+00:00,198.51.100.25,R004_ADMIN_PROBE,/wp-admin,500,1,Medium,Admin probing
+2025-09-11 16:07:33+00:00,203.0.113.10,R004_ADMIN_PROBE,/phpmyadmin,403,1,Medium,Admin probing
+2025-09-11 16:08:11+00:00,192.0.2.77,R004_ADMIN_PROBE,/phpmyadmin,500,1,Medium,Admin probing
+2025-09-11 16:08:11+00:00,192.0.2.77,R006_BAD_UA,/phpmyadmin,500,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:08:33+00:00,10.0.0.12,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,401,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:08:33+00:00,10.0.0.12,R006_BAD_UA,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,401,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:09:15+00:00,10.0.0.10,R004_ADMIN_PROBE,/wp-admin,401,1,Medium,Admin probing
+2025-09-11 16:10:10+00:00,203.0.113.10,R004_ADMIN_PROBE,/phpmyadmin,404,1,Medium,Admin probing
+2025-09-11 16:12:05+00:00,10.0.0.10,R004_ADMIN_PROBE,/phpmyadmin,401,1,Medium,Admin probing
+2025-09-11 16:12:05+00:00,10.0.0.10,R006_BAD_UA,/phpmyadmin,401,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:12:53+00:00,10.0.0.11,R004_ADMIN_PROBE,/wp-admin,500,1,Medium,Admin probing
+2025-09-11 16:13:00+00:00,10.0.0.11,R004_ADMIN_PROBE,/admin,404,1,Medium,Admin probing
+2025-09-11 16:13:31+00:00,203.0.113.10,R004_ADMIN_PROBE,/phpmyadmin,500,1,Medium,Admin probing
+2025-09-11 16:13:31+00:00,203.0.113.10,R006_BAD_UA,/phpmyadmin,500,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:13:45+00:00,10.0.0.10,R002_TRAVERSAL,/../../etc/passwd,401,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:14:56+00:00,10.0.0.12,R004_ADMIN_PROBE,/phpmyadmin,404,1,Medium,Admin probing
+2025-09-11 16:15:09+00:00,192.0.2.77,R004_ADMIN_PROBE,/wp-admin,404,1,Medium,Admin probing
+2025-09-11 16:16:20+00:00,198.51.100.25,R004_ADMIN_PROBE,/wp-admin,500,1,Medium,Admin probing
+2025-09-11 16:16:20+00:00,198.51.100.25,R006_BAD_UA,/wp-admin,500,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:17:40+00:00,198.51.100.25,R004_ADMIN_PROBE,/phpmyadmin,500,1,Medium,Admin probing
+2025-09-11 16:18:05+00:00,10.0.0.11,R004_ADMIN_PROBE,/phpmyadmin,403,1,Medium,Admin probing
+2025-09-11 16:18:37+00:00,198.51.100.25,R006_BAD_UA,/..%2f..%2f..%2fetc/passwd,404,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:19:04+00:00,10.0.0.10,R002_TRAVERSAL,/../../etc/passwd,500,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:19:25+00:00,10.0.0.10,R002_TRAVERSAL,/../../etc/passwd,403,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:22:01+00:00,192.0.2.77,R002_TRAVERSAL,/../../etc/passwd,500,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:23:09+00:00,198.51.100.25,R004_ADMIN_PROBE,/admin,401,1,Medium,Admin probing
+2025-09-11 16:26:47+00:00,192.0.2.77,R004_ADMIN_PROBE,/phpmyadmin,404,1,Medium,Admin probing
+2025-09-11 16:26:54+00:00,10.0.0.10,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,401,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:28:03+00:00,10.0.0.10,R004_ADMIN_PROBE,/admin,403,1,Medium,Admin probing
+2025-09-11 16:28:22+00:00,10.0.0.11,R002_TRAVERSAL,/../../etc/passwd,500,1,High,Path traversal pattern ../ or %2e%2e
+2025-09-11 16:30:52+00:00,192.0.2.77,R004_ADMIN_PROBE,/admin,500,1,Medium,Admin probing
+2025-09-11 16:30:52+00:00,192.0.2.77,R006_BAD_UA,/admin,500,1,Medium,Scanner UA (sqlmap/nikto)
+2025-09-11 16:31:59+00:00,10.0.0.11,R004_ADMIN_PROBE,/admin,404,1,Medium,Admin probing
+2025-09-11 16:32:30+00:00,10.0.0.12,R004_ADMIN_PROBE,/wp-admin,403,1,Medium,Admin probing
+2025-09-11 16:32:38+00:00,10.0.0.10,R004_ADMIN_PROBE,/phpmyadmin,403,1,Medium,Admin probing
+2025-09-11 16:32:55+00:00,10.0.0.12,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,404,1,High,SQL injection (UNION SELECT / OR 1=1)
+2025-09-11 16:33:09+00:00,203.0.113.10,R004_ADMIN_PROBE,/wp-admin,500,1,Medium,Admin probing
+2025-09-11 16:33:23+00:00,198.51.100.25,R003_SQLI,/search?q=%27%20UNION%20SELECT%20credit_card%20FROM%20cards--,401,1,High,SQL injection (UNION SELECT / OR 1=1)

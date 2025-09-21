@@ -1,0 +1,4 @@
+customer_id,full_name,email,phone,address,last_order_date,loyalty_points,marketing_opt_in,created_at
+1,Taylor Garcia,taylor.garcia1@example.com,+1-555-926-5984,"856 Main St, Apt 722",2025-05-20,41,True,2022-11-03
+2,Jordan Garcia,jordan.garcia2@mail.com,+1-555-354-6828,"415 Main St, Apt 526",2022-04-11,693,False,2022-06-17
+3,Casey Lopez,casey.lopez3@shoebox.com,+1-555-975-8408,"579 Main St, Apt 767",2025-01-31,255,True,2023-08-05

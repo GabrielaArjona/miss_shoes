@@ -1,0 +1,11 @@
+case_id,request_type,identity_verified,requester_email,submitted_at,due_date
+DSAR-20250911-01,delete,no,casey.lopez3@shoebox.com,2025-09-11T16:07:00Z,2025-10-11
+DSAR-20250911-02,access,yes,shawn.walker153@example.com,2025-09-11T16:14:00Z,2025-10-11
+DSAR-20250911-03,delete,yes,drew.clark141@shoebox.com,2025-09-11T16:21:00Z,2025-10-11
+DSAR-20250911-04,delete,no,robin.brown106@mail.com,2025-09-11T16:28:00Z,2025-10-11
+DSAR-20250911-05,access,yes,drew.wilson64@shoebox.com,2025-09-11T16:35:00Z,2025-10-11
+DSAR-20250911-06,delete,no,kai.harris189@mail.com,2025-09-11T16:42:00Z,2025-10-11
+DSAR-20250911-07,delete,yes,shawn.thomas57@mail.com,2025-09-11T16:49:00Z,2025-10-11
+DSAR-20250911-08,access,yes,sasha.lewis109@mail.com,2025-09-11T16:56:00Z,2025-10-11
+DSAR-20250911-09,delete,no,kai.davis196@example.com,2025-09-11T17:03:00Z,2025-10-11
+DSAR-20250911-10,delete,no,dana.thomas167@mail.com,2025-09-11T17:10:00Z,2025-10-11

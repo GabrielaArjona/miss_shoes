@@ -1,0 +1,7 @@
+ISO27001,NIST_CSF,SOC2,Intent,GDPR (overlay),NIST Privacy/NIST CSF
+A.8.15 Logging,DE.CM,CC7.2,Sufficient logs & review cadence,,
+A.8.16 Monitoring,DE.AE,CC7.3,Detect anomalies & triage alerts,,
+A.8.9 Config mgmt,PR.IP,CC7.1/7.4,"Baselines, hardening, approved changes",,
+A.8.4 Change mgmt,PR.IP,CC7.1,Controlled changes with rollback,,
+A.8.10 Deletion,PR.DS,CC8/Privacy,Retention & DSAR deletion,,
+,,Privacy,"Transparency, access, deletion within SLA",Arts.12–15/17,GV/PR

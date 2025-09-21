@@ -1,0 +1,9 @@
+{
+  "tls_min_version": "TLSv1.2",
+  "hsts": {"enabled": true, "max_age": 31536000},
+  "server_tokens": "off",
+  "content_security_policy": "default-src 'self'",
+  "rate_limit": "100r/m",
+  "logging": {"enabled": true}
+}
+

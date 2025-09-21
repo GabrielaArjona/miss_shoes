@@ -1,0 +1,2 @@
+customer_id,full_name,email,phone,address,last_order_date,loyalty_points,marketing_opt_in,created_at
+64,Drew Wilson,drew.wilson64@shoebox.com,+1-555-683-8496,"156 Main St, Apt 324",2023-01-05,797,True,2023-09-26

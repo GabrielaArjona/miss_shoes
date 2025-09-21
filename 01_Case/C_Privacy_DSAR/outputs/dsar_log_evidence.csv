@@ -1,0 +1,11 @@
+case_id,type,email,verified,status,artifact,processed_at
+DSAR-20250911-01,delete,casey.lopez3@shoebox.com,no,rejected_identity_not_verified,,
+DSAR-20250911-02,access,shawn.walker153@example.com,yes,fulfilled_access,dsar_DSAR-20250911-02.zip,2025-09-20T04:50:59Z
+DSAR-20250911-03,delete,drew.clark141@shoebox.com,yes,prepared_delete_preview,delete_preview_DSAR-20250911-03.csv,2025-09-20T04:51:00Z
+DSAR-20250911-04,delete,robin.brown106@mail.com,no,rejected_identity_not_verified,,
+DSAR-20250911-05,access,drew.wilson64@shoebox.com,yes,fulfilled_access,dsar_DSAR-20250911-05.zip,2025-09-20T04:51:00Z
+DSAR-20250911-06,delete,kai.harris189@mail.com,no,rejected_identity_not_verified,,
+DSAR-20250911-07,delete,shawn.thomas57@mail.com,yes,prepared_delete_preview,delete_preview_DSAR-20250911-07.csv,2025-09-20T04:51:00Z
+DSAR-20250911-08,access,sasha.lewis109@mail.com,yes,fulfilled_access,dsar_DSAR-20250911-08.zip,2025-09-20T04:51:00Z
+DSAR-20250911-09,delete,kai.davis196@example.com,no,rejected_identity_not_verified,,
+DSAR-20250911-10,delete,dana.thomas167@mail.com,no,rejected_identity_not_verified,,

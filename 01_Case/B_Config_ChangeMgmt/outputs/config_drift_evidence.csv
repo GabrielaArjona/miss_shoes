@@ -1,0 +1,7 @@
+control_id,description,severity,status,remediation
+C-TLS,TLS >= 1.2,High,DRIFT,Disable TLSv1/1.1; enforce TLSv1.2+
+C-HSTS,HSTS enabled,Medium,OK,Add HSTS with max-age>=31536000
+C-SERVER-TOKENS,server_tokens off,Low,OK,Set server_tokens off
+C-CSP,CSP restrictive,Medium,DRIFT,"Use CSP 'default-src self', remove 'unsafe-inline'"
+C-RATE,Rate limiting enabled,Medium,OK,"Enable rate limiting (e.g., 100r/m)"
+C-LOG,Access logging enabled,Low,OK,Enable access_log and centralize logs

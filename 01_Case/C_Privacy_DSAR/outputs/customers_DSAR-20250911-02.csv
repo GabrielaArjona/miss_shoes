@@ -1,0 +1,2 @@
+customer_id,full_name,email,phone,address,last_order_date,loyalty_points,marketing_opt_in,created_at
+153,Shawn Walker,shawn.walker153@example.com,+1-555-998-9706,"525 Main St, Apt 771",2022-08-29,95,False,2024-09-12

@@ -1,0 +1,2 @@
+customer_id,full_name,email,phone,address,last_order_date,loyalty_points,marketing_opt_in,created_at
+109,Sasha Lewis,sasha.lewis109@mail.com,+1-555-717-4218,"804 Main St, Apt 743",2023-02-01,301,False,2021-12-30
