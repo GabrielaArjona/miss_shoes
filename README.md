@@ -16,7 +16,7 @@ Table of Contents
 - [What to look at first](#what-to-look-at-first)
 - [Business processes and assets](#business-processes-and-assets)
 - [Mini-projects overview](#mini-projects-overview)
-  - [A) Log Review & Detections](#access-review)
+  - [A) Log Review & Detections](#log-review-&-detections—“who’s-knocking?”)
   - [B) Configuration & Change Management](#backup--restore-test)
   - [C) Privacy Rights (DSAR)](#data-classification--retention)
 - [Repository layout](#repository-layout)
@@ -37,10 +37,10 @@ Table of Contents
 ---
 
 ## Business processes and assets
-- **E-commerce storefront** (orders, payments)  
-- **CRM** (customers: names, emails, loyalty)  
-- **Inventory system** (shoe SKUs, stock, suppliers)  
-- **Payment gateway** (third-party)  
+- **E-commerce storefront** (orders, payments)
+- **CRM** (customers: names, emails, loyalty)
+- **Inventory system** (shoe SKUs, stock, suppliers)
+- **Payment gateway** (third-party)
 - **Customer support portal** (DSAR intake)
 
 ---
@@ -48,29 +48,30 @@ Table of Contents
 ## Mini-projects (overview)
 
 ### Log Review & Detections — “Who’s knocking?”
-**Goal:** Detect suspicious access in web server logs (failed logins, brute force).
-**Inputs:** ´data/web_access.log´
-**Output:** ´outputs/alerts_evidence.csv´
-**Docs/Code:** ´scripts/A_Log_Detections.ipynb´, ´Report_Detections.md´
-**KPIs (targets):** 100% logs reviewed weekly · alerts triaged ≤24h · orphan alerts=0
-**Frameworks:** ISO 27001 A.8.15/8.16 · NIST CSF DE.CM/DE.AE · SOC 2 CC7.x
+- **Goal:** Detect suspicious access in web server logs (failed logins, brute force).
+- **Inputs:** data/web_access.log
+- **Output:** outputs/alerts_evidence.csv
+- **Docs/Code:** scripts/A_Log_Detections.ipynb, Report_Detections.md
+- **KPIs (targets):** 100% logs reviewed weekly · alerts triaged ≤24h · orphan alerts=0
+- **Frameworks:** ISO 27001 A.8.15/8.16 · NIST CSF DE.CM/DE.AE · SOC 2 CC7.x
 
 ### Configuration & Change Management — “Guardrails & drift”
 
-**Goal:** Compare baseline vs. actual system configuration; document changes.
-**Inputs:** ´config/baseline.json´, ´config/actual.config´
-**Outputs:** ´outputs/config_drift_evidence.csv´
-**Docs/Code:** ´scripts/B_Config_ChangeMgmt.ipynb´, ´Change_Ticket.md´, ´Report_ChangeMgmt.md´
-**KPIs (targets):** Drift=0 for critical configs · 100% changes documented · review cycle ≤30 days
-**Frameworks:** ISO 27001 A.8.9/8.4 · NIST CSF PR.IP/PR.PT · SOC 2 CC7.x
+- **Goal:** Compare baseline vs. actual system configuration; document changes.
+- **Inputs:** config/baseline.json, config/actual.config
+- **Outputs:** outputs/config_drift_evidence.csv
+- **Docs/Code:** scripts/B_Config_ChangeMgmt.ipynb, Change_Ticket.md, Report_ChangeMgmt.md
+- **KPIs (targets):** Drift=0 for critical configs · 100% changes documented · review cycle ≤30 days
+- **Frameworks:** ISO 27001 A.8.9/8.4 · NIST CSF PR.IP/PR.PT · SOC 2 CC7.x
 
 ### Privacy Rights (DSAR) — “Customer’s voice”
-**Goal:** Fulfill customer DSARs (Data Subject Access Requests) under GDPR.
-**Inputs:** ´data/customers.csv´, ´data/dsar_intake.csv´
-**Outputs:** DSAR packages (*.zip), evidence logs (´dsar_log_evidence.csv´)
-**Docs/Code:** ´scripts/C_Privacy_DSAR.ipynb´, ´DSAR_Procedure.md´, ´Report_DSAR.md´
-**KPIs (targets):** 100% DSARs acknowledged ≤1 day · fulfilled ≤30 days · deletions logged with evidence
-**Frameworks:** ISO 27001 A.8.10 · NIST CSF PR.DS · SOC 2 Confidentiality/Privacy · GDPR Art. 15-17
+
+- **Goal:** Fulfill customer DSARs (Data Subject Access Requests) under GDPR.
+- **Inputs:** data/customers.csv, data/dsar_intake.csv
+- **Outputs:** DSAR packages (*.zip), evidence logs (dsar_log_evidence.csv)
+- **Docs/Code:** scripts/C_Privacy_DSAR.ipynb, DSAR_Procedure.md, Report_DSAR.md
+- **KPIs (targets):** 100% DSARs acknowledged ≤1 day · fulfilled ≤30 days · deletions logged with evidence
+- **Frameworks:** ISO 27001 A.8.10 · NIST CSF PR.DS · SOC 2 Confidentiality/Privacy · GDPR Art. 15-17
 
 ---
 
@@ -114,8 +115,9 @@ MissShoes/
 ##  Screenshots
 
 <div style="display: flex; flex-direction: row;">
-  <img  style="margin-bottom: 10px;" src="Don Control Pizzas/Captura de pantalla 2025-09-13 233244.png" alt="project" width="350" height="250">
-  <img  style="margin-bottom: 10px;" src="Don Control Pizzas/Captura de pantalla 2025-09-13 234052.png" width="350" height="250">
+  <img  style="margin-bottom: 10px;" src="04_Screenshots/Captura de pantalla 2025-09-20 122612.png" alt="project" width="600" height="550">
+  <img  style="margin-bottom: 10px;" src="04_Screenshots/Captura de pantalla 2025-09-20 122927.png" width="600" height="550">
 
 
 > All datasets are synthetic. No real secrets or PII.
+
